@@ -67,7 +67,9 @@ header .menu-bars:hover {
 }
 
 /* -------------------- Mobile Styles - Homepage -------------------- */
+
 /* === Hero Area Styles === */
+
 .hero-area {
   background-image: url(../images/header-shapes\ mobile.png);
   background-size: cover;
