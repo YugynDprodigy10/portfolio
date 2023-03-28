@@ -109,7 +109,7 @@ header .menu-bars:hover {
   justify-content: center;
   flex-flow: row wrap;
   border-bottom-left-radius: 3em;
-  
+ 
 }
 
 .hero-area .container {
@@ -187,7 +187,7 @@ header .menu-bars:hover {
   border-radius: 20px;
 }
 
-#portfolio .portfolio-content{
+#portfolio .portfolio-content {
   display: flex;
   flex-direction: column;
   margin: 1em 0;
@@ -198,6 +198,14 @@ header .menu-bars:hover {
   justify-content: center;
   align-items: center;
   margin: 1em 0;
+}
+
+#portfolio .languages li {
+  background-color: #ebebff;
+  color: #6070ff;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 8px;
 }
 
 #portfolio .list-items li:nth-of-type(1) {
@@ -213,14 +221,6 @@ header .menu-bars:hover {
   display: flex;
   align-items: center;
   margin: 1em 0;
-}
-
-#portfolio .languages li {
-  background-color: #ebebff;
-  color: #6070FF;
-  padding: 5px 10px;
-  border: none;
-  border-radius: 8px;
 }
 
 #portfolio .languages li:nth-of-type(2) {
@@ -241,6 +241,14 @@ header .menu-bars:hover {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+}
+
+.language-name i {
+  font-size: 2em;
+  padding: 0.325em;
+  border: none;
+  border-radius: 50%;
+  margin-right: 1.25em;
 }
 
 .about-main-content {
@@ -305,16 +313,8 @@ header .menu-bars:hover {
   padding: 0.5em;
 }
 
-.language-name i {
-  font-size: 2em;
-  padding: 0.325em;
-  border: none;
-  border-radius: 50%;
-  margin-right: 1.25em;
-}
-
 .language-name .javascript {
-  background-color: #ff0;  
+  background-color: #ff0;
 }
 
 .language-name .html {
