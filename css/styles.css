@@ -287,7 +287,7 @@ header .menu-bars:hover {
   color: #505f79;
 }
 
-.about-dropdown {
+.modals {
   display: flex;
   justify-content: space-between;
   align-items: center;
