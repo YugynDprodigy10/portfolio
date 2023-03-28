@@ -77,6 +77,7 @@ header .menu-bars:hover {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  padding: 3rem 0;
 }
 
 .hero-area .container {
