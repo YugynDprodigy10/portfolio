@@ -40,6 +40,7 @@ header {
   align-items: center;
   flex-flow: row wrap;
   padding: 15px 0;
+  background-color: #fff;
 }
 
 .btn {
@@ -69,10 +70,6 @@ header {
 
 /* -------------------- Base Header Styles -------------------- */
 
-header {
-  background-color: #fff;
-}
-
 header .container {
   display: flex;
   justify-content: space-between;
@@ -101,6 +98,7 @@ header .menu-bars:hover {
 
 /* -------------------- Mobile Styles - Homepage -------------------- */
 /* === Hero Area Styles === */
+
 .hero-area {
   background-image: url(../images/header-shapes\ mobile.png);
   background-size: cover;
@@ -109,8 +107,7 @@ header .menu-bars:hover {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
-  border-bottom-left-radius: 3em;
- 
+  border-bottom-left-radius: 3em; 
 }
 
 .hero-area .container {
@@ -174,7 +171,7 @@ header .menu-bars:hover {
   align-items: center;
   background-color: #fff;
   padding: 1em 1em 2em 1em;
-  border: 1px solid #DFE1E6;
+  border: 1px solid #dfe1E6;
   border-radius: 20px;
 }
 
@@ -299,7 +296,7 @@ header .menu-bars:hover {
 .language-name {
   display: flex;
   align-items: center;
-  background-color: #F7F7F9;
+  background-color: #f7f7f9;
   margin: 0.8em 0;
   padding: 0.5em;
 }
@@ -312,15 +309,16 @@ header .menu-bars:hover {
   margin-right: 1.25em;
 }
 .language-name .javascript {
-  background-color: #ffff00;
+  background-color: #ff0;
   
 }
 .language-name .html {
   background-color: #ff4500;
   color: #fff;
 }
+
 .language-name .css {
-  background-color: #00ffff;
+  background-color: #0ff;
   color: #fff;
 }
 
@@ -368,7 +366,7 @@ form {
   border: none;
   border-radius: 0.5em;
   outline: none;
-  color: #172B4D;
+  color: #172b4d;
 }
 
 #contact .btn {
