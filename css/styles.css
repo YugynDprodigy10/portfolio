@@ -108,7 +108,8 @@ header .menu-bars:hover {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
-  border-bottom-left-radius: 3em; 
+  border-bottom-left-radius: 3em;
+  
 }
 
 .hero-area .container {
