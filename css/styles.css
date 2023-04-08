@@ -8,7 +8,7 @@
 }
 
 html {
-  font-size: 20px;
+  font-size: 16px;
 }
 
 body {
@@ -36,7 +36,7 @@ a {
 
 .btn {
   background-color: #fff;
-  color: #0d45d3;
+  color: #0D45D3;
   padding: 10px 20px;
   border: 1px solid #7f8cff;
   border-radius: 8px;
@@ -131,7 +131,6 @@ header .menu-bars:hover {
 }
 
 /* -------------------- Mobile Styles - Homepage -------------------- */
-
 /* === Hero Area Styles === */
 .hero-area {
   background-image: url(../images/hero-img.png);
@@ -173,22 +172,6 @@ header .menu-bars:hover {
 .hero-social ul {
   justify-content: space-between;
   width: 60%;
-}
-
-.language-name i {
-  font-size: 2em;
-  padding: 0.325em;
-  border: none;
-  border-radius: 50%;
-  align-self: flex-start;
-}
-
-.about-social ul i {
-  font-size: 1.2em;
-  font-weight: 700;
-  margin: 12px 0;
-  color: #475a6b;
-  transition: 1s;
 }
 
 .hero-social ul i {
@@ -251,14 +234,6 @@ header .menu-bars:hover {
   color: #6b778c;
 }
 
-#portfolio .languages li {
-  background-color: #ebebff;
-  color: #0018f0;
-  padding: 5px 10px;
-  border: none;
-  border-radius: 8px;
-}
-
 #portfolio .list-items li:nth-of-type(1) {
   color: #344563;
   font-size: 1em;
@@ -282,6 +257,14 @@ header .menu-bars:hover {
 
 #portfolio .languages {
   margin: 1.5em 0;
+}
+
+#portfolio .languages li {
+  background-color: #ebebff;
+  color: #0018F0;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 8px;
 }
 
 #portfolio .languages li:nth-of-type(2) {
@@ -311,7 +294,7 @@ header .menu-bars:hover {
 #about h3 {
   font-size: 1.25em;
   font-weight: normal;
-  color: #000;
+  color: #000000;
 }
 
 .about-social {
@@ -329,6 +312,14 @@ header .menu-bars:hover {
   justify-content: space-between;
   width: 55%;
   margin: 0.625em 0;
+}
+
+.about-social ul i {
+  font-size: 1.2em;
+  font-weight: 700;
+  margin: 12px 0;
+  color: #475A6B;
+  transition: 1s;
 }
 
 .about-social ul i:hover {
@@ -371,15 +362,22 @@ header .menu-bars:hover {
 }
 
 .language-name:hover {
-  transform: translateY(-1em);
+  transform: translateY(-1em)
 }
 
+.language-name i {
+  font-size: 2em;
+  padding: 0.325em;
+  border: none;
+  border-radius: 50%;
+  align-self: flex-start;
+}
 .language-name p {
   margin-left: 1em;
 }
 
 .language-name .javascript {
-  background-color: #ff0;
+  background-color: #ffff00;
 }
 
 .language-name .html {
@@ -388,7 +386,7 @@ header .menu-bars:hover {
 }
 
 .language-name .css {
-  background-color: #0ff;
+  background-color: #00ffff;
   color: #fff;
 }
 
@@ -398,7 +396,7 @@ header .menu-bars:hover {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: right 0;
-  background-color: #6070ff;
+  background-color: #0017EB;
   border-top-left-radius: 3em;
 }
 
@@ -410,12 +408,11 @@ header .menu-bars:hover {
 
 #contact h2 {
   color: #fff;
-  font-size: 40px;
 }
 
 #contact p {
   margin: 1em 0;
-  font-size: 20px;
+  font-size: 1em;
   color: #ebebff;
 }
 
@@ -480,7 +477,7 @@ form textarea {
   header nav ul li a:hover {
     color: #6070ff;
     border-bottom: 2px solid #6070ff;
-    padding-bottom: 0.5em;
+    padding-bottom: .5em;
   }
 
   /* ------------ Hero Area Styles ---------- */
@@ -495,7 +492,6 @@ form textarea {
   .hero-main-content {
     max-width: 500px;
   }
-
   .hero-social {
     max-width: 500px;
   }
@@ -574,10 +570,13 @@ form textarea {
     margin: 0 0.5em;
   }
 
+  .language-name p {
+    margin-top: 1em;
+    margin-left: 0;
+  }
   .language-name i {
     align-self: center;
   }
-
   /* ------------ Contact Styles ---------- */
 
   #contact {
@@ -666,11 +665,6 @@ form textarea {
     margin-bottom: 3em;
   }
 
-  .language-name p {
-    margin-top: 1em;
-    margin-left: 0;
-  }
-
   #portfolio p {
     font-weight: 500;
   }
@@ -680,11 +674,9 @@ form textarea {
     width: 38%;
     margin: 1em 0;
   }
-
   #about .btn {
     width: 35%;
   }
-
   /* ------------ Contact Styles ---------- */
   #contact .container {
     max-width: 400px;
