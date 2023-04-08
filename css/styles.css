@@ -8,7 +8,7 @@
 }
 
 html {
-  font-size: 16px;
+  font-size: 20px;
 }
 
 body {
@@ -398,7 +398,7 @@ header .menu-bars:hover {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: right 0;
-  background-color: #0017eb;
+  background-color: #6070ff;
   border-top-left-radius: 3em;
 }
 
@@ -410,6 +410,7 @@ header .menu-bars:hover {
 
 #contact h2 {
   color: #fff;
+  font-size:40px;
 }
 
 #contact p {
